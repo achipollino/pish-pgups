@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Benzin;
+    src: url("../fonts/Benzin Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Benzin;
+    src: url("../fonts/Benzin Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Benzin;
+    src: url("../fonts/Benzin Bold.ttf");
+    font-weight: 700;
+}
+
+.edu-number {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.edu-title {
+    font-family: Benzin, sans-serif;
+    font-size: 52px;
+    color: white;
+    max-width: 968px;
+    margin-bottom: 40px;
+}
+
+.edu-start-date {
+    display: inline-block;
+    padding: 16px 20px 15px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    line-height: 1;
+    font-size: 22px;
+    color: white;
+    background: rgba(0, 133, 116, 0.7);
+}
+
+.edu-description {
+    list-style: '-';
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    max-width: 406px;
+}
+
+.description-text {
+    color: #008574;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.edu-info {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+p.description-text {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    color: #008574;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.blocks-4 .description-text {
+    width: 308px;
+}
+
+#electromagnition-compatibility .edu-title {
+    max-width: 1250px;
+}
+
+#kiber-sequre-systems .edu-title,
+#organization-work-station .edu-title {
+    max-width: 1045px;
+}
+
+.blocks-5 .description-text {
+    width: 236px;
+}
+
+.description-main-text {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.order img {
+    width: 125px;
+}
+
+.order-text {
+    max-width: 221px;
+    color: white;
+    margin-right: 20px;
+}
+
+.niip {
+    margin-left: -21px;
+}
+
+.tmh {
+    margin-left: -9px;
+}
+
+.rzhd {
+margin-left: -25px;
+}

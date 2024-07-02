@@ -9,4 +9,4 @@ $(document).ready(function(){
     });
 });
 
-var owl = $('.owl-carousel');
+const owl = $('.owl-carousel');
